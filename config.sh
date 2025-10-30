@@ -6,8 +6,8 @@
 # Device Config
 export DEVICE="a22x"
 export DEFCONFIG="a22x_defconfig"
-export KBUILD_BUILD_USER="azure"
-export KBUILD_BUILD_HOST="naifiprjkt"
+export KBUILD_BUILD_USER="H3CKER"
+export KBUILD_BUILD_HOST="H3CKED"
 
 # Directories
 export SRC="$(pwd)"
@@ -23,12 +23,12 @@ export CLANG_URL="https://github.com/makruf1954/toolchains.git"
 export CLANG_BRANCH="clang-12"  # clang-11 or clang-12
 
 # AnyKernel
-export ANYKERNEL_URL="https://github.com/makruf1954/AnyKernel3.git"
-export ANYKERNEL_BRANCH="a22x"
+export ANYKERNEL_URL="https://github.com/H33CKER/AnyKernel3.git"
+export ANYKERNEL_BRANCH="A22"
 
 # KernelSU
-export KSU_URL="https://raw.githubusercontent.com/sidex15/KernelSU-Next/next-susfs/kernel/setup.sh"
-export KSU_BRANCH="next-susfs"
+export KSU_URL="https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/kernel/setup.sh"
+export KSU_BRANCH="next"
 
 # Build Config
 export ARCH=arm64
