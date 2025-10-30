@@ -27,8 +27,8 @@ export ANYKERNEL_URL="https://github.com/makruf1954/AnyKernel3.git"
 export ANYKERNEL_BRANCH="a22x"
 
 # KernelSU
-export KSU_URL="https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh"
-export KSU_BRANCH="next"
+export KSU_URL="https://raw.githubusercontent.com/sidex15/KernelSU-Next/next-susfs/kernel/setup.sh"
+export KSU_BRANCH="next-susfs"
 
 # Build Config
 export ARCH=arm64
