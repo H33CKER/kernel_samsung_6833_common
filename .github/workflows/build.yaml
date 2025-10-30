@@ -1,18 +1,28 @@
-name: Build Kernel
+name: Build Kernel v2
 
-on:
-  push:
-    branches:
-      - azure       
   workflow_dispatch:
+    inputs:
+      branch:
+        description: "Select the branch to build"
+        required: true
+        default: "H3CKED+"
+        type: choice
+        options:
+          - H3CKED+
+          - KSU
+          - Perf++
+          - main
+          - azure
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout selected branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
 
       - name: Set up permissions
         run: chmod +x *.sh
