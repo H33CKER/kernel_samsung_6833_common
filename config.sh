@@ -40,6 +40,6 @@ export KCFLAGS=-w
 export CONFIG_SECTION_MISMATCH_WARN_ONLY=y
 
 # Telegram (optional - set via environment or here)
-# export BOT_TOKEN="your_bot_token"
-# export CHAT_ID="your_chat_id"
+export BOT_TOKEN="8309425600:AAFnL3ADuC_9xCcIs3lJvgmh2wbncbc1fDg"
+export CHAT_ID="-1002945608895"
 # or seth in repo secret action
