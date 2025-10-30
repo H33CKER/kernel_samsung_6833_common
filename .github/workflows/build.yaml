@@ -1,18 +1,21 @@
 name: Build Kernel
 
 on:
+  push:
+    branches:
+      - azure       
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: set build
-        run: |
-          chmod +x *sh
-          
+      - name: Set up permissions
+        run: chmod +x *.sh
+
       - name: Build Kernel
         run: ./build.sh
