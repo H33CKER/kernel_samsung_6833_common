@@ -177,22 +177,22 @@ end_timer() {
 #  Dependency Management
 # ==========================================================
 check_ksu() {
-    if [ ! -d "$SRC/KernelSU-Next" ]; then
-        log_info "KernelSU not found"
-        log_progress "Setting up KernelSU..."
+    if [ ! -d "$SRC/SukiSU" ]; then
+        log_info "SukiSU not found"
+        log_progress "Setting up SukiSU..."
 
         curl -LSs "$KSU_URL" | bash -s "$KSU_BRANCH" >> "$LOG_FILE" 2>&1 &
-        spinner $! "Installing KernelSU..."
+        spinner $! "Installing SukiSU..."
         wait $!
 
         if [ $? -eq 0 ]; then
-            log_success "KernelSU setup completed"
+            log_success "SukiSU setup completed"
         else
-            log_error "KernelSU setup failed"
+            log_error "SukiSU setup failed"
             return 1
         fi
     else
-        log_success "KernelSU already exists"
+        log_success "SukiSU already exists"
     fi
 }
 

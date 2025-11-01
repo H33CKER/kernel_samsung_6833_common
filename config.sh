@@ -26,9 +26,9 @@ export CLANG_BRANCH="clang-12"  # clang-11 or clang-12
 export ANYKERNEL_URL="https://github.com/H33CKER/AnyKernel3.git"
 export ANYKERNEL_BRANCH="A22"
 
-# KernelSU
-export KSU_URL="https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/refs/heads/next/kernel/setup.sh"
-export KSU_BRANCH="next"
+# SukiSU
+export KSU_URL="https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/main/kernel/setup.sh"
+export KSU_BRANCH="nongki"
 
 # Build Config
 export ARCH=arm64
