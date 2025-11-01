@@ -3,7 +3,7 @@ name: Build Kernel
 on:
   push:
     branches:
-      - azure
+      - H3CKED
   workflow_dispatch:
 
 jobs:
