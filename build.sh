@@ -51,9 +51,9 @@ print_banner() {
     echo -e "${CYAN}"
     cat << "EOF"
 ╔══════════════════════════════════════════════╗
-║                                                      ║
-║          KERNEL BUILD SCAMSUNG                       ║
-║                                                      ║
+║                                              ║
+║          KERNEL BUILD SCAMSUNG               ║
+║                                              ║
 ╚══════════════════════════════════════════════╝
 EOF
     echo -e "${NC}"
@@ -127,9 +127,9 @@ Time: $(date '+%d-%m-%Y %H:%M')
     fi
 
     echo -e "${RED}╔══════════════════════════════════════════════╗${NC}"
-    echo -e "${RED}║                                                      ║${NC}"
-    echo -e "${RED}║            BUILD FAILED                              ║${NC}"
-    echo -e "${RED}║                                                      ║${NC}"
+    echo -e "${RED}║                                              ║${NC}"
+    echo -e "${RED}║            BUILD FAILED                      ║${NC}"
+    echo -e "${RED}║                                              ║${NC}"
     echo -e "${RED}╚══════════════════════════════════════════════╝${NC}"
     exit 1
 }
