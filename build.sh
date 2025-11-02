@@ -416,9 +416,9 @@ main() {
 
     # Success banner
     echo -e "${GREEN}╔══════════════════════════════════════════════╗${NC}"
-    echo -e "${GREEN}║                                                      ║${NC}"
-    echo -e "${GREEN}║          BUILD COMPLETED                             ║${NC}"
-    echo -e "${GREEN}║                                                      ║${NC}"
+    echo -e "${GREEN}║                                              ║${NC}"
+    echo -e "${GREEN}║          BUILD COMPLETED                     ║${NC}"
+    echo -e "${GREEN}║                                              ║${NC}"
     echo -e "${GREEN}╚══════════════════════════════════════════════╝${NC}"
 
     log_success "Build finished successfully!"
