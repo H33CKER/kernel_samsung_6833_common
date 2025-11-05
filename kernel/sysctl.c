@@ -130,7 +130,7 @@ static unsigned long one_ul = 1;
 static unsigned long long_max = LONG_MAX;
 static int one_hundred = 100;
 #ifdef CONFIG_INCREASE_MAXIMUM_SWAPPINESS
-static int max_swappiness = 200;
+static int max_swappiness = 100;
 #endif
 #ifdef CONFIG_MTK_GMO_RAM_OPTIMIZE
 static int two_hundred = 200;
