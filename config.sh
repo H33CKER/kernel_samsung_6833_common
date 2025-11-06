@@ -27,7 +27,7 @@ export ANYKERNEL_URL="https://github.com/H33CKER/AnyKernel3.git"
 export ANYKERNEL_BRANCH="A22"
 
 # SukiSU
-export KSU_URL="https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/main/kernel/setup.sh"
+export KSU_URL="https://raw.githubusercontent.com/H33CKER/SukiSU-Ultra/refs/heads/nongki/kernel/setup.sh"
 export KSU_BRANCH="nongki"
 
 # Build Config
