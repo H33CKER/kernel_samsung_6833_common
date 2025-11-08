@@ -17,9 +17,9 @@ export ANYKERNEL_DIR="$SRC/AnyKernel3"
 export OUTPUT_DIR="$SRC/output"
 
 # Toolchain URLs
-export GCC_URL="https://github.com/makruf1954/toolchains.git"
+export GCC_URL="https://github.com/H33CKER/toolchains"
 export GCC_BRANCH="gcc-4.9" #gcc-4.9 or gcc-6.4
-export CLANG_URL="https://github.com/makruf1954/toolchains.git"
+export CLANG_URL="https://github.com/H33CKER/toolchains"
 export CLANG_BRANCH="clang-12"  # clang-11 or clang-12
 
 # AnyKernel
